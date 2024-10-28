@@ -2,6 +2,9 @@ import java.util.Optional;
 import java.util.stream.Gatherer;
 import lombok.AllArgsConstructor;
 
+/**
+ * A custom gatherer that skips a specified number of cars of a given brand.
+ */
 @AllArgsConstructor
 class CarGatherer implements Gatherer<Car, Optional<Car>, Car> {
 

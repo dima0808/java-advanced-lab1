@@ -5,6 +5,9 @@ import java.util.Set;
 import java.util.function.*;
 import java.util.stream.Collector;
 
+/**
+ * Collector for calculating basic statistics of Car prices.
+ */
 public class CarStatisticsCollector implements Collector<Car, List<Integer>, CarStatistics> {
 
   @Override

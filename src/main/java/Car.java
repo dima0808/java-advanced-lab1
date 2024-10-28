@@ -3,6 +3,9 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
+/**
+ * Represents a car with brand, model, class, manufacture date, and price.
+ */
 @AllArgsConstructor
 @Data
 @Builder
